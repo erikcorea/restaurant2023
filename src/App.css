@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+
+/* NAVBAR */
+
+.header-container{
+    width: 100%;
+    height: 7em;
+    z-index: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-right {
+    padding: 0px 0px 0px 120px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-left {
+    padding: 0px 120px 0px 0px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+.header-nav-inner{
+    padding: 13px 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a+a {
+    margin-left: 30px;
+}
+
+.header-mid{
+    color: #3F7742;
+    font-size: 1.5em;
+    font-family:  'Righteous', cursive;
+}
+
+.header-nav{
+    font-weight: 200;
+    font-size: 20x;
+}
+
+/* Home */
+.home-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%; /*whatever dimensions you want*/
+    height:100%;
+    color: #3F7742;
+    font-size: 3.5em;
+    font-family:  'Righteous', cursive;
+}
+
+.word-one {
+    margin-top: 9%;
+}
+
+.time-open {
+    padding-top: 20px;
+    color: #E07A15;
+    font-size: .5em;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
