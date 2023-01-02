@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar from '../Nav/Navbar.js';
+import Footer from '../Footer/Footer.js';
 
 function Home() {
   return (
     <>
+    
         <div className='home-logo'>
             <h1 className='word-one'>Willow Springs</h1>
             <h1>Family Restaurant</h1>
