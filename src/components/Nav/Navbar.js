@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
             <div className='header-right'>
                 <nav className='header-nav'>
                     <div className='header-nav-inner'>
-                        <a>Home</a>
+                        <Link to='/' className='nav-link'>Home</Link>
                         <a>Menu</a>
                     </div>
                 </nav>
@@ -18,8 +19,8 @@ function Navbar() {
             <div className='header-left'>
                 <nav className='header-nav'>
                     <div className='header-nav-inner'>
-                        <a className='word-one'>Contact</a>
-                        <a className='word-two'>About</a>
+                        <a className='nav-link'>Contact</a>
+                        <Link to='/about' className='nav-link'>About</Link>
                     </div>
                 </nav>
             </div>

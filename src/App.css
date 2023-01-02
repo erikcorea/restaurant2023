@@ -73,6 +73,12 @@ a+a {
 
 .word-one {
     margin-top: 12%;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
 }
 
 .time-open {
